@@ -1,4 +1,4 @@
-const HeroEdition1 = [
+[
   {
     "inputs": [],
     "name": "AccessControlBadConfirmation",
@@ -633,5 +633,4 @@ const HeroEdition1 = [
     "stateMutability": "payable",
     "type": "function"
   }
-] as const;
-export { HeroEdition1 };
+]
