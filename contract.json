@@ -1,31 +1,31 @@
 {
   "5611": {
     "CryptoRumble": {
-      "address": "0x36d7d86D3D71b2beA68d77dC9f37E8b36BAb18Ea"
+      "address": "0x27e0c49ba54a500b691dA181b68860CD4F433794"
     },
     "Equipment": {
-      "address": "0xDbC9bf388a1ec5eE19a409e25913C5004818CeeD"
+      "address": "0xe1B70675fC9FF7816CD2D5Ed165990f520Efc9D3"
     },
     "EquipmentEdition1": {
-      "address": "0xEF28B327db304269be6C955388cd8Ed82B6163a9"
+      "address": "0x989E47a28767a55fFB12D33315bc9Ce13Be415E6"
     },
     "Hero": {
-      "address": "0xF9e45029c65c8115FA25fcF85f0855A3a561FdB3"
+      "address": "0x7dA99A181Bc40a86CF087Eba0A14120b3556eB1C"
     },
     "HeroEdition1": {
-      "address": "0xa3Cf48Bf9f7DF210BEd9197B2208117D33B0EB17"
+      "address": "0x5c1f0A5417F9c989710C05B6F2933AA99c8F8cE6"
     },
     "Level": {
-      "address": "0x83c6cc4Dc6A8D4325F4F0404E7F953E8448C7233"
+      "address": "0xAA2937a787900965B09699Ece9Ac533cC36BD508"
     },
     "LevelUpHelper": {
-      "address": "0x45900D26AF396eA555bC0407b57B5028AdfcE0A2"
+      "address": "0x507a6f8ce4A06Dd467dD463ca6a5f89f84B0DB60"
     },
     "XmasEvent": {
-      "address": "0xdeCdDee2081f19fE5FB678fbe378dE0D43CB84f0"
+      "address": "0x37591575402134CB581b4C603F1941F285c83B11"
     },
     "API": {
-      "address": "0xAaBcB49a83eAb95803C0C93A6972A9fA8827BF3E"
+      "address": "0xcb7De0742669CAcE3dB916be3fA132A400Db1083"
     }
   }
 }

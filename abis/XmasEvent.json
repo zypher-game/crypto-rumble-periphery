@@ -586,24 +586,24 @@
             "type": "uint256"
           },
           {
-            "internalType": "uint128",
+            "internalType": "uint256",
             "name": "damage",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint128",
+            "name": "timeStart",
             "type": "uint128"
           },
           {
-            "internalType": "uint64",
-            "name": "timeStart",
-            "type": "uint64"
-          },
-          {
-            "internalType": "uint32",
+            "internalType": "uint128",
             "name": "time",
-            "type": "uint32"
+            "type": "uint128"
           },
           {
-            "internalType": "uint32",
+            "internalType": "uint256",
             "name": "move",
-            "type": "uint32"
+            "type": "uint256"
           },
           {
             "internalType": "address",
@@ -611,9 +611,9 @@
             "type": "address"
           },
           {
-            "internalType": "uint32",
+            "internalType": "uint256",
             "name": "levelId",
-            "type": "uint32"
+            "type": "uint256"
           }
         ],
         "internalType": "struct IXmasEvent.Metadata",
