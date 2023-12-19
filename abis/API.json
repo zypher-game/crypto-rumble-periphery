@@ -325,6 +325,566 @@
         "internalType": "address",
         "name": "player",
         "type": "address"
+      }
+    ],
+    "name": "getCurrentGame",
+    "outputs": [
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "player",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "gameId",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "levelId",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "heroId",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "uint128",
+                "name": "timeStart",
+                "type": "uint128"
+              },
+              {
+                "internalType": "uint128",
+                "name": "timeEnd",
+                "type": "uint128"
+              },
+              {
+                "internalType": "uint256",
+                "name": "nonce",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "board",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "damageMade",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "moveMade",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "specialLevel",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct ICryptoRumble.Game",
+            "name": "game",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "uint128",
+                    "name": "attack",
+                    "type": "uint128"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "quality",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "class",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "lv",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "exp",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "locked",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "lvCap",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "edition",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint128",
+                    "name": "atkGroth",
+                    "type": "uint128"
+                  },
+                  {
+                    "internalType": "uint128[3]",
+                    "name": "equiped",
+                    "type": "uint128[3]"
+                  },
+                  {
+                    "internalType": "bool",
+                    "name": "revealed",
+                    "type": "bool"
+                  }
+                ],
+                "internalType": "struct IHero.Stats",
+                "name": "stats",
+                "type": "tuple"
+              },
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "uint128",
+                        "name": "attack",
+                        "type": "uint128"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "quality",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "locked",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "edition",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "kind",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "bool",
+                        "name": "revealed",
+                        "type": "bool"
+                      }
+                    ],
+                    "internalType": "struct IEquipment.Stats",
+                    "name": "stats",
+                    "type": "tuple"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "equipmentId",
+                    "type": "uint256"
+                  }
+                ],
+                "internalType": "struct API.EquipmentInfo[]",
+                "name": "equipments",
+                "type": "tuple[]"
+              },
+              {
+                "internalType": "uint256",
+                "name": "heroId",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint64[5]",
+                "name": "atks",
+                "type": "uint64[5]"
+              }
+            ],
+            "internalType": "struct API.HeroInfo[]",
+            "name": "heroes",
+            "type": "tuple[]"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "uint32[5]",
+                    "name": "resistanceRatio",
+                    "type": "uint32[5]"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "moves",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "hp",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "class",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32[5]",
+                    "name": "resistanceAbsolute",
+                    "type": "uint32[5]"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "vitCost",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "invulnerable",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "board",
+                    "type": "uint256"
+                  },
+                  {
+                    "internalType": "address",
+                    "name": "reward",
+                    "type": "address"
+                  }
+                ],
+                "internalType": "struct ILevel.Info",
+                "name": "info",
+                "type": "tuple"
+              },
+              {
+                "internalType": "uint32",
+                "name": "timeStart",
+                "type": "uint32"
+              },
+              {
+                "internalType": "uint32",
+                "name": "timeLength",
+                "type": "uint32"
+              }
+            ],
+            "internalType": "struct ILevel.Special",
+            "name": "level",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct API.GameInfo",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "gameId",
+        "type": "uint256"
+      }
+    ],
+    "name": "getGame",
+    "outputs": [
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "player",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "gameId",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "levelId",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "heroId",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "uint128",
+                "name": "timeStart",
+                "type": "uint128"
+              },
+              {
+                "internalType": "uint128",
+                "name": "timeEnd",
+                "type": "uint128"
+              },
+              {
+                "internalType": "uint256",
+                "name": "nonce",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "board",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "damageMade",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "moveMade",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "specialLevel",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct ICryptoRumble.Game",
+            "name": "game",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "uint128",
+                    "name": "attack",
+                    "type": "uint128"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "quality",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "class",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "lv",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "exp",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "locked",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "lvCap",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "edition",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint128",
+                    "name": "atkGroth",
+                    "type": "uint128"
+                  },
+                  {
+                    "internalType": "uint128[3]",
+                    "name": "equiped",
+                    "type": "uint128[3]"
+                  },
+                  {
+                    "internalType": "bool",
+                    "name": "revealed",
+                    "type": "bool"
+                  }
+                ],
+                "internalType": "struct IHero.Stats",
+                "name": "stats",
+                "type": "tuple"
+              },
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "uint128",
+                        "name": "attack",
+                        "type": "uint128"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "quality",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "locked",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "edition",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "kind",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "bool",
+                        "name": "revealed",
+                        "type": "bool"
+                      }
+                    ],
+                    "internalType": "struct IEquipment.Stats",
+                    "name": "stats",
+                    "type": "tuple"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "equipmentId",
+                    "type": "uint256"
+                  }
+                ],
+                "internalType": "struct API.EquipmentInfo[]",
+                "name": "equipments",
+                "type": "tuple[]"
+              },
+              {
+                "internalType": "uint256",
+                "name": "heroId",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint64[5]",
+                "name": "atks",
+                "type": "uint64[5]"
+              }
+            ],
+            "internalType": "struct API.HeroInfo[]",
+            "name": "heroes",
+            "type": "tuple[]"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "uint32[5]",
+                    "name": "resistanceRatio",
+                    "type": "uint32[5]"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "moves",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "hp",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "class",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32[5]",
+                    "name": "resistanceAbsolute",
+                    "type": "uint32[5]"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "vitCost",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "invulnerable",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "board",
+                    "type": "uint256"
+                  },
+                  {
+                    "internalType": "address",
+                    "name": "reward",
+                    "type": "address"
+                  }
+                ],
+                "internalType": "struct ILevel.Info",
+                "name": "info",
+                "type": "tuple"
+              },
+              {
+                "internalType": "uint32",
+                "name": "timeStart",
+                "type": "uint32"
+              },
+              {
+                "internalType": "uint32",
+                "name": "timeLength",
+                "type": "uint32"
+              }
+            ],
+            "internalType": "struct ILevel.Special",
+            "name": "level",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct API.GameInfo",
+        "name": "gameInfo",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "player",
+        "type": "address"
       },
       {
         "components": [
@@ -505,9 +1065,63 @@
                 "type": "tuple"
               },
               {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "uint128",
+                        "name": "attack",
+                        "type": "uint128"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "quality",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "locked",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "edition",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "uint32",
+                        "name": "kind",
+                        "type": "uint32"
+                      },
+                      {
+                        "internalType": "bool",
+                        "name": "revealed",
+                        "type": "bool"
+                      }
+                    ],
+                    "internalType": "struct IEquipment.Stats",
+                    "name": "stats",
+                    "type": "tuple"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "equipmentId",
+                    "type": "uint256"
+                  }
+                ],
+                "internalType": "struct API.EquipmentInfo[]",
+                "name": "equipments",
+                "type": "tuple[]"
+              },
+              {
                 "internalType": "uint256",
                 "name": "heroId",
                 "type": "uint256"
+              },
+              {
+                "internalType": "uint64[5]",
+                "name": "atks",
+                "type": "uint64[5]"
               }
             ],
             "internalType": "struct API.HeroInfo[]",
