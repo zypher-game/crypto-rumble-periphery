@@ -589,6 +589,43 @@
             "internalType": "struct ILevel.Special",
             "name": "level",
             "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "exp",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "gp",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "native",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "heroReward",
+                "type": "bool"
+              },
+              {
+                "internalType": "bool",
+                "name": "equipmentReward",
+                "type": "bool"
+              },
+              {
+                "internalType": "bool",
+                "name": "nftReward",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct API.RewardInfo",
+            "name": "reward",
+            "type": "tuple"
           }
         ],
         "internalType": "struct API.GameInfo",
@@ -868,6 +905,43 @@
             ],
             "internalType": "struct ILevel.Special",
             "name": "level",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "exp",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "gp",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "native",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "heroReward",
+                "type": "bool"
+              },
+              {
+                "internalType": "bool",
+                "name": "equipmentReward",
+                "type": "bool"
+              },
+              {
+                "internalType": "bool",
+                "name": "nftReward",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct API.RewardInfo",
+            "name": "reward",
             "type": "tuple"
           }
         ],
