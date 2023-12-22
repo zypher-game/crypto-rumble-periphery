@@ -1203,7 +1203,7 @@
           },
           {
             "internalType": "uint256",
-            "name": "totoal",
+            "name": "total",
             "type": "uint256"
           }
         ],
@@ -1374,7 +1374,7 @@
           },
           {
             "internalType": "uint256",
-            "name": "totoal",
+            "name": "total",
             "type": "uint256"
           }
         ],
