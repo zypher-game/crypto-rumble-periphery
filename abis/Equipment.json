@@ -43,6 +43,11 @@
     "type": "error"
   },
   {
+    "inputs": [],
+    "name": "AtLeastMintOne",
+    "type": "error"
+  },
+  {
     "inputs": [
       {
         "internalType": "address",
@@ -911,6 +916,61 @@
       }
     ],
     "name": "mintAuthorized",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint128",
+            "name": "atk",
+            "type": "uint128"
+          },
+          {
+            "internalType": "uint32",
+            "name": "quality",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "edition",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "kind",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "mintFee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "revealed",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct IEquipment.MintParam[]",
+        "name": "params",
+        "type": "tuple[]"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalFee",
+        "type": "uint256"
+      }
+    ],
+    "name": "mintManyAuthorized",
     "outputs": [],
     "stateMutability": "payable",
     "type": "function"
