@@ -1,0 +1,34 @@
+{
+  "5611": {
+    "CryptoRumble": {
+      "address": "0x27e0c49ba54a500b691dA181b68860CD4F433794"
+    },
+    "Equipment": {
+      "address": "0xe1B70675fC9FF7816CD2D5Ed165990f520Efc9D3"
+    },
+    "EquipmentEdition1": {
+      "address": "0x989E47a28767a55fFB12D33315bc9Ce13Be415E6"
+    },
+    "Hero": {
+      "address": "0x7dA99A181Bc40a86CF087Eba0A14120b3556eB1C"
+    },
+    "HeroEdition1": {
+      "address": "0x5c1f0A5417F9c989710C05B6F2933AA99c8F8cE6"
+    },
+    "Level": {
+      "address": "0xAA2937a787900965B09699Ece9Ac533cC36BD508"
+    },
+    "LevelUpHelper": {
+      "address": "0x507a6f8ce4A06Dd467dD463ca6a5f89f84B0DB60"
+    },
+    "XmasEvent": {
+      "address": "0x37591575402134CB581b4C603F1941F285c83B11"
+    },
+    "API": {
+      "address": "0xA62b738B53546Ad36FAC9c4844812C4026d94c37"
+    },
+    "GP": {
+      "address": "0xea37f290392cB0EeFC33621E1D4a60d2Ad372bA2"
+    }
+  }
+}
