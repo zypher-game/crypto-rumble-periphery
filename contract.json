@@ -30,5 +30,42 @@
     "GP": {
       "address": "0x60BCB0Ca2d9cf10CDDc7Ff0f72800806B7A81965"
     }
+  },
+  "167007": {
+    "Multicall3": {
+      "address": "0x7e31A57750CeaD3F6c380d2aeEe3d6aE48c931b9"
+    },
+    "CryptoRumble": {
+      "address": "0xC49948d187581071289A35f487b65B3Eb0456923",
+      "tx": "0x424508a36fd437c22feb9af7ad291e8979108ad976f18855ee79ca29082b0f40",
+      "blockNumber": 2223867
+    },
+    "Equipment": {
+      "address": "0xF37D91f603F8E72648249b3D4D555cE26F8612C8"
+    },
+    "EquipmentEdition1": {
+      "address": "0x90A4b1A2a610Da2505d08eFb84D90FcB64A0Cd77"
+    },
+    "Hero": {
+      "address": "0x91D416d939baA3Aa822DD1B776fC5e9610b952C2"
+    },
+    "HeroEdition1": {
+      "address": "0xE33C000C23D6712319Fe2BF8FA873E62AdE2fa01"
+    },
+    "Level": {
+      "address": "0xFAaB65AD2528c3a1B927f778191026853F850914"
+    },
+    "LevelUpHelper": {
+      "address": "0x4961661f732e995133fDAa7881481BB10e424f78"
+    },
+    "XmasEvent": {
+      "address": "0xE09E3C1A0a52F56c72b8A6A1D686ff75CD005675"
+    },
+    "API": {
+      "address": "0x1a3Dc9af66997FA5142c18BB7A1dE89ae9E75a4c"
+    },
+    "GP": {
+      "address": "0xF3e4AEe14224a0231f80eFaB003Ecb3c00377DE2"
+    }
   }
 }
