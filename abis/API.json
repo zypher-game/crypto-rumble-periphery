@@ -207,6 +207,19 @@
   },
   {
     "inputs": [],
+    "name": "checkIn",
+    "outputs": [
+      {
+        "internalType": "contract CheckIn",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "cryptRumble",
     "outputs": [
       {
@@ -483,6 +496,62 @@
         ],
         "internalType": "struct API.Levels",
         "name": "lvs",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "player",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "timestamp",
+        "type": "uint256"
+      }
+    ],
+    "name": "getCheckInfo",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "dailyWinReward",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "dailyWinClaimed",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "dailyWinCanClaim",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "checkInRewards",
+            "type": "uint256[]"
+          },
+          {
+            "internalType": "bool[7]",
+            "name": "checkedIn",
+            "type": "bool[7]"
+          },
+          {
+            "internalType": "uint256",
+            "name": "nextRewardIndex",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct API.CheckDTO",
+        "name": "dto",
         "type": "tuple"
       }
     ],
@@ -1622,6 +1691,50 @@
       }
     ],
     "name": "revokeRole",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract CheckIn",
+        "name": "ci",
+        "type": "address"
+      }
+    ],
+    "name": "setCheckIn",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract Equipment",
+        "name": "eq",
+        "type": "address"
+      },
+      {
+        "internalType": "contract EquipmentEdition",
+        "name": "ed",
+        "type": "address"
+      }
+    ],
+    "name": "setEquipment",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract Level",
+        "name": "l",
+        "type": "address"
+      }
+    ],
+    "name": "setLevel",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"

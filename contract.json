@@ -66,6 +66,9 @@
     },
     "GP": {
       "address": "0x3e0540C1429a2d31756B807ff9040CD216084A4c"
+    },
+    "CheckIn": {
+      "address": "0xc55A0c445A80C8598b4757A07d3784e6F7d2b661"
     }
   }
 }
