@@ -61,6 +61,9 @@
     "XmasEvent": {
       "address": "0xA73529B130Ad3607452A2ec9cBFad7acE7d13485"
     },
+    "NewYearEvent": {
+      "address": "0x5Ce213F4021b95e6268f8ce058502E755eb00B57"
+    },
     "API": {
       "address": "0xAE892c6E0d69dAa0f4b36b6646aF604d92fd554F"
     },
