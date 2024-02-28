@@ -73,5 +73,43 @@
     "CheckIn": {
       "address": "0x9EA3Ee1C242f09678604D02a66b4c113FD2c0bB1"
     }
+  },
+  "80085": {
+    "Multicall3": {
+      "address": "0x7e31A57750CeaD3F6c380d2aeEe3d6aE48c931b9"
+    },
+    "CryptoRumble": {
+      "address": "0xd69a32155A909298Dcec3A5AE05B2a610c300481"
+    },
+    "Equipment": {
+      "address": "0x4961661f732e995133fDAa7881481BB10e424f78"
+    },
+    "EquipmentEdition1": {
+      "address": "0x91D416d939baA3Aa822DD1B776fC5e9610b952C2"
+    },
+    "Hero": {
+      "address": "0x6F36BF53bE9be182599CD7E937E5F32152cEAf41"
+    },
+    "HeroEdition1": {
+      "address": "0xFAaB65AD2528c3a1B927f778191026853F850914"
+    },
+    "Level": {
+      "address": "0xAE892c6E0d69dAa0f4b36b6646aF604d92fd554F"
+    },
+    "LevelUpHelper": {
+      "address": "0x9Cae525AdE710904FE81daF47fD26789608fe057"
+    },
+    "CREvent": {
+      "address": "0xB3AFdDA99fe78C47c9EeeaDE8D1121ceC03b4806"
+    },
+    "API": {
+      "address": "0xFbEfA87902D657aD1Fa619717619008d1854aF51"
+    },
+    "GP": {
+      "address": "0xC3915d66C197d15b51C3ED26012eC5836915b3a6"
+    },
+    "CheckIn": {
+      "address": "0xCe2FfE8cFBBb8494e1Ee29C0ce9f66da5BF5e212"
+    }
   }
 }
