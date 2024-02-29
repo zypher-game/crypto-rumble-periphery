@@ -99,7 +99,10 @@
     "LevelUpHelper": {
       "address": "0x9Cae525AdE710904FE81daF47fD26789608fe057"
     },
-    "CREvent": {
+    "XmasEvent": {
+      "address": "0xB3AFdDA99fe78C47c9EeeaDE8D1121ceC03b4806"
+    },
+    "NewYearEvent": {
       "address": "0xB3AFdDA99fe78C47c9EeeaDE8D1121ceC03b4806"
     },
     "API": {
