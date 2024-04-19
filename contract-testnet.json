@@ -114,5 +114,23 @@
     "CheckIn": {
       "address": "0xCe2FfE8cFBBb8494e1Ee29C0ce9f66da5BF5e212"
     }
+  },
+  "11155111": {
+    "Hero": {
+      "address": "0xF3e4AEe14224a0231f80eFaB003Ecb3c00377DE2"
+    },
+    "HeroEdition2": {
+      "address": "0xF37D91f603F8E72648249b3D4D555cE26F8612C8"
+    }
+  },
+  "59140": {
+    "Hero": {
+      "address": "0x26368C78A33F8F9E122c07E883D46eF3d7b944b1"
+    },
+    "HeroEdition2": {
+      "address": "0x76E08f9D5f76590E12427F003325768290602De1"
+    },
+    "Restaking": "0x3BbBe5929db5EAdF580537874bBA0a961F505E40",
+    "WETH": "0x5131bc5Ed480a524932D2638922616fE968374FE"
   }
 }
