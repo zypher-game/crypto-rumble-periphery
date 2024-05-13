@@ -132,5 +132,15 @@
     },
     "Restaking": "0x3BbBe5929db5EAdF580537874bBA0a961F505E40",
     "WETH": "0x5131bc5Ed480a524932D2638922616fE968374FE"
+  },
+  "1123": {
+    "Hero": {
+      "address": "0xe010DF8f3AE9c83Da0c4411d28C252Ef59366EeD"
+    },
+    "HeroEdition2": {
+      "address": "0x5f441d16bA9A5e3a824f4c287eDA8019F97418f6"
+    },
+    "Restaking": "0x159879B72B1bE7007aC56c4DcbbC31545F8D57bb",
+    "stBTC": "0x4AC1Ba5885929aFDdbf035bA03013836db27012C"
   }
 }
