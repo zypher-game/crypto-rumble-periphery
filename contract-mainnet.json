@@ -1,0 +1,39 @@
+{
+    "8333": {
+        "CryptoRumble": {
+            "address": "0x56f9514937bBceFfF64df14e908A966e495e1f5E",
+            "tx": "0x6666b2461502a3021ffe108770dbaa157941054a5007fb74495b2eb3cdb79f29",
+            "blockNumber": 6770457
+        },
+        "Equipment": {
+            "address": "0xC92F5Eb565e056D86FafF8C1bAC45AdF32805D93"
+        },
+        "EquipmentEdition1": {
+            "address": "0xBe994C4137269e25C29522CcaC00BE28778C24c5"
+        },
+        "Hero": {
+            "address": "0xAF310199743EF85daB5e6E200871e7f222342FD7"
+        },
+        "HeroEdition1": {
+            "address": "0xb149eEe6622b3cF6661617A78ee1B4cE8DbF239e"
+        },
+        "Level": {
+            "address": "0x4b564641773ff5a4c5Ad4b8474AcadC49945E5E0"
+        },
+        "LevelUpHelper": {
+            "address": "0x5ce1983818e83EEF552bed0F0e6D10589fB80d0e"
+        },
+        "CREvent": {
+            "address": "0x281996C1b64FB7f855D193A37E91eA4657569e32"
+        },
+        "API": {
+            "address": "0x51597053B6833690C6D7fb8354D27C690cBc38bF"
+        },
+        "GP": {
+            "address": "0x22bC4c94293F9ebdB1C575046cc90a10B431bAB0"
+        },
+        "CheckIn": {
+            "address": "0xB59f0526915b6eDF6085799ac899FE86D1E8a84B"
+        }
+    }
+}
