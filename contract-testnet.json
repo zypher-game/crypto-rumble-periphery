@@ -142,5 +142,42 @@
     },
     "Restaking": "0x159879B72B1bE7007aC56c4DcbbC31545F8D57bb",
     "stBTC": "0x4AC1Ba5885929aFDdbf035bA03013836db27012C"
+  },
+  "50341": {
+    "CryptoRumble": {
+      "address": "0xC3915d66C197d15b51C3ED26012eC5836915b3a6",
+      "tx": "0xf6b8ca4a84ff78370e75cec3a489ee2ce1a8104f91f0e0b7b7229f3b40d790e0",
+      "blockNumber": 1287164
+    },
+    "Equipment": {
+      "address": "0xAeb65CCDe3b88CA9095D7Cc1d8ACa82ae865AcA6"
+    },
+    "EquipmentEdition1": {
+      "address": "0xd9c4d0Bf3881510d9d7a883c94Bd856c4d314370"
+    },
+    "Hero": {
+      "address": "0x7b00c14c7D0087C3a0d37cAbbc6924566B4481E9"
+    },
+    "HeroEdition1": {
+      "address": "0x8647178e0F1A130E1628D114e89988d558fbC734"
+    },
+    "Level": {
+      "address": "0xF5b60bb4Da816b98Ef69cd0B811b51Cc73D29647"
+    },
+    "LevelUpHelper": {
+      "address": "0xC0f6EE6B5D006ED1a8172b038514DDe6D744BcED"
+    },
+    "CREvent": {
+      "address": "0x4AC1Ba5885929aFDdbf035bA03013836db27012C"
+    },
+    "API": {
+      "address": "0xea37f290392cB0EeFC33621E1D4a60d2Ad372bA2"
+    },
+    "GP": {
+      "address": "0x3e0540C1429a2d31756B807ff9040CD216084A4c"
+    },
+    "CheckIn": {
+      "address": "0x2dC23E86E0AD5F9B2e6C2d964aEeAA85468B0f90"
+    }
   }
 }
